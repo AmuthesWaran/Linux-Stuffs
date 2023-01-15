@@ -1,0 +1,156 @@
+# - root (admin access)
+$ - normal user
+
+su <along with password> - to switch to rename (admin access - super user)
+
+// presently working dir
+pwd
+
+// list all the file in the current dir
+ls
+ls -l
+
+// list all the file in the current dir incl. hidden file
+ls -a
+
+// to list the complete directory structure including the subfiles and folders
+ls -R
+
+// to lists the file in reverse order
+ls -r
+
+// to clear the screen in a command line
+clear
+
+// to create a file
+touch <filename.extension>
+
+cat < <filename.extension>
+<type something> ctrl + D
+
+//to view/open the soure code of a file
+cat <filename.extension>
+
+// to amend a file
+cat << <filename.extension>
+<type details to append> ctrl + D
+
+//to create a folder
+mkdir <foldername>
+
+//to navigate to the folder
+cd <path of the folder>
+
+// to move one folder back
+cd ../ 
+cd ..
+
+cd ../.. - to move 2 folder back
+
+
+// main directory
+cd /
+
+//copy a file
+cp <filename.extension> <path of the new location>
+
+// to copy an entire directory
+cp <foldername> -R <path of the new location>
+
+//rename a file
+mv <oldname.extension> <newname.extension>
+
+//move a file
+mv <filename.extension> <path of the new location>
+
+//move all the files in a directory
+mv ./* <path of the new location>
+
+//manual of command
+man <command name>
+eg man <pwd>
+
+// to delete a empty folder
+rmdir <foldername>
+rm <foldername>
+rm -R foldername
+
+// to delete a file
+rm <filename.extension>
+
+// delete all the files in a directory
+rm ./*
+
+// find/search
+find <path to search> -name "*text to search*"
+
+// find/search only file
+find <path to search> -name "*text to search*" -type f
+
+// find/search only folder (directory)
+find <path to search> -name "*text to search*" -type d
+
+find <path to search> -size -2
+less than 2kbs
+
+find <path to search> -mtime -10
+10 days
+
+find <path to search> -iname "*text to search - case insensitive*"
+
+
+//to list all the files in a directory (just files)
+find . -type f
+find . -maxdepth 1 -type f
+
+//display all the users connected to ubuntu
+w
+who
+
+// to create a hidden file
+touch .<filename.extension>
+
+// to sort the names in a file
+sort <filename.extension>
+
+// display the content in a file in uppercase
+tr a-z A-Z < <filename.extension>
+
+// awk
+https://hackr.io/blog/awk-command-unix-linux-examples#:~:text=%20AWK%20Command%20in%20Unix%2FLinux%20with%20Examples%20,offers%20certain%20inbuilt...%206%20Saving%20Output%20More%20
+
+//Display all the process running in the Ubuntu system
+ps
+ps -rename
+
+// permission
+chmod <+or-><r/w/x> <filename.extension/path to a directory>
+
+// to create user
+useradd <username>
+
+// to change owner
+chown <new owner name> <filename.extension>
+
+// to change group
+chgrp <new group name> <filename.extension>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
