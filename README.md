@@ -1,3 +1,3 @@
 # Linux Assignment
-Linux basic commands and it's syntax
+Linux basic commands and shell scripts
 
