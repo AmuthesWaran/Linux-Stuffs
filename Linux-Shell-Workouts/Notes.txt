@@ -1,5 +1,5 @@
 switch case
 OR Operater
-\HOW TO PUSH ELEMENT INTO ARRAY INTO A SPECIFIC POSITION
+HOW TO PUSH ELEMENT INTO ARRAY INTO A SPECIFIC POSITION
 how to pass arguments in funtion in linux
 regex in linux
