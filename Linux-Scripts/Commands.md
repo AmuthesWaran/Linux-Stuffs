@@ -20,3 +20,8 @@ print working directory <br>
 | <code>:n</code> | to move to next file | less filename1.txt filename2.txt |
 | <code>head</code> | prints few lines(10) of a file   | head filename.txt |
 | <code></code> | prints 5 lines of a file   | head -n 5 filename.txt |
+| <code>man</code> | To get the manual for the given cmd   | man head |
+| <code>cut</code> | To get columns of the files | cut -d , -f 1 file1.csv |
+| <code>grep</code> | search in text file |  grep "hello" file1.csv |
+| <code>wc</code> | word count |  wc file1.csv |
+
