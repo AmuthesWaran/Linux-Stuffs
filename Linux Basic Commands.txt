@@ -3,7 +3,7 @@ $ - normal user
 
 su <along with password> - to switch to rename (admin access - super user)
 
-// presently working dir
+// print working dir
 pwd
 
 // list all the file in the current dir
@@ -18,6 +18,8 @@ ls -R
 
 // to lists the file in reverse order
 ls -r
+
+ls -ltr
 
 // to clear the screen in a command line
 clear
@@ -47,8 +49,10 @@ cd ..
 
 cd ../.. - to move 2 folder back
 
+// Navigate from current folder
+cd ./
 
-// main directory
+// Navigate from main directory
 cd /
 
 //copy a file
@@ -68,7 +72,7 @@ mv ./* <path of the new location>
 
 //manual of command
 man <command name>
-eg man <pwd>
+eg man pwd
 
 // to delete a empty folder
 rmdir <foldername>
