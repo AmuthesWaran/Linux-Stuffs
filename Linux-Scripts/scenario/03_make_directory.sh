@@ -1,3 +1,5 @@
+#! /usr/bin/bash
+
 # To create a folder in the base location of the script
 # run sh 03_make_directory.sh hello
 # Here hello is the 1st argument which will be the folder name that you want to create

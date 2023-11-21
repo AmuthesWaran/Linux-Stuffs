@@ -1,4 +1,4 @@
-# DIR='/e/GitHub Projects/Linux-Assignment'
+#! /usr/bin/bash
 
 if [ -d '/e/GitHub Projects/Linux-Assignment' ]; then
   echo "$DIR exists."

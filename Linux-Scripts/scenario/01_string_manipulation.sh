@@ -1,3 +1,5 @@
+#! /usr/bin/bash
+
 NAME="Amu"
 echo $NAME
 echo ${NAME}
