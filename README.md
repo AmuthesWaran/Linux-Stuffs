@@ -1,3 +1,2 @@
 # linux-stuffs
-Linux basic commands and shell scripts
-
+Linux commands and scenario based problems solved using shell scripts
