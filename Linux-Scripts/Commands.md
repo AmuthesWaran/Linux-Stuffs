@@ -1,8 +1,5 @@
 # Linux Commands
 
-print working directory <br>
-<code>pwd</code>
-
 | commands | description | eg/output |
 |---|---|---|
 | <code>pwd</code> | print working directory | /home/newfolder |
