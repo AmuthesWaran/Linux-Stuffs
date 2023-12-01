@@ -4,6 +4,13 @@
 # run sh 03_make_directory.sh hello
 # Here hello is the 1st argument which will be the folder name that you want to create
 
+
+
+if [ -z $1 ]; then
+    echo "please provide folder name as first argument"
+    exit 1
+fi
+
 BASE_PATH=./
 FOLDER_NAME=$1
 
